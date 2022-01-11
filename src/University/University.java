@@ -7,6 +7,5 @@ public class University {
         System.out.println(teacher.getSubject() + "\n" + student.getGroup());
         teacher.printInfo();
         student.printInfo();
-
     }
 }
