@@ -14,6 +14,6 @@ public class Test {
         u3.sendMessage(u1,"6");
 
         MessageDatabase.showDialog(u1,u2);
-     //   MessageDatabase.showDialog(u1,u3);
+       MessageDatabase.showDialog(u1,u3);
     }
 }
