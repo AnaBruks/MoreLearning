@@ -43,7 +43,7 @@ public class MusicBand {
     public static List<MusicBand> groupsAfter2000(List<MusicBand> bands){
         List<MusicBand>newBandsList = new ArrayList<>();
         for (MusicBand band : bands){
-            if(band.getYear()>3000)
+            if(band.getYear()>2000)
                 newBandsList.add(band);
         }
         return newBandsList;
