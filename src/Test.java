@@ -21,7 +21,6 @@ public class Test {
         Pattern pattern3 = Pattern.compile("\\d+\\s?");
         String[] words = pattern3.split("java5tiger 77 java6mustang");
         System.out.print(Arrays.toString(words));
-
     }
 
 }
